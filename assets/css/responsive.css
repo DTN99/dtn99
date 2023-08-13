@@ -1,0 +1,15 @@
+
+/* mobile */
+@media (max-width: 739px) {
+    .heart {
+        width: 100%;
+        height: 800px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: fixed;
+        justify-content: flex-start;
+        
+    }
+
+}
