@@ -1,0 +1,86 @@
+.heart {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+
+}
+
+
+/* icon */
+.heart__all-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.heart__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+
+
+}
+
+.heart__icon {
+    color: rgb(243, 101, 101);
+    font-size: 100px;
+
+    display: none;
+
+}
+
+.heart__box:hover .heart__icon {
+    display: block;
+
+}
+
+
+/* title */
+.heart__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.heart__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 18px;
+
+
+}
+
+.heart__description {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.heart__description-icon {
+    font-size: 50px;
+    padding: 10px;
+    line-height: 55px;
+    color: red;
+    display: none;
+
+}
+
+.heart__description:hover .heart__description-icon {
+    display: block;
+}
+
