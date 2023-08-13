@@ -12,4 +12,35 @@
         
     }
 
+    .heart__all-icon {
+        margin: 48px 0;
+    }
+
+    .heart__box {
+        width: 100px;
+        height: 100px;
+    }
+
+    .heart__icon {
+        font-size: 50px;
+
+    }
+
+
+
+
+
+    /* text */
+    .heart__description {
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .heart__description-icon {
+        font-size: 30px;
+        padding: 5px;
+        line-height: 32px;
+    }
+
 }
