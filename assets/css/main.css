@@ -33,7 +33,7 @@
     color: rgb(243, 101, 101);
     font-size: 100px;
 
-    /* display: none; */
+    display: none;
 
 }
 
@@ -77,7 +77,7 @@
     line-height: 55px;
     color: red;
 
-    /* display: none; */
+    display: none;
 
 }
 
